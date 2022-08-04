@@ -1,31 +1,15 @@
 
 # Javascript
 
-Em algumas funções é utilizado um `if()` para verificar se aquela "classe" existe.
+## Modules
 
-## initTabNav
+Muito utilizado para manutenção e compartilhamento de projetos.
 
-A função `initTabNav()` cria uma página mais "clean" a seção animais. Ou seja, ao clicar na foto do animal, um texto sobre ele aparece escondendo as informações dos demais. 
+- Basta adicionar `type="modules"` na tag script do HTML.
+- Utilize a palavra chave `export` na frente do valor que deseja exportar (use default se for único).
+- E `import nome from arquivo.js` para importar.
 
-A função é baseado no index dos animais. Exemplo: 
-"A imagem raposa (`.animais-lista li`) e as informações da raposa (`.animais-descricao section`) estão no `index 0`"
-"A imagen do esquilo (`.animais-lista li`) e as informações do esquilo (`.animais-descricao section`) estão no `index 1`"
-
-Usou se um `forEach()` para remover todas as classes `ativo` que existir e em seguida é adicionado a classe `ativo` ao index que eu cliquei. Dessa forma, apenas o texto do animal selecionado será exibido.
-
-Também foi utilizado um `forEach()` para adicionar um evento de `click`.
-
-## initaccordion()
-
-Função interativa com o DOM para esconder o texto das perguntas na seção "FAQ". Utilizou-se um `forEach()` para adicionar um de `click`.
-
-## initScrollSuave
-
-A função cria um scroll suave ao selecionar um item no menu de navegação.
-
-a função `scrollToSection()` cria um link entre o item que estamos clicando e a seção dele.
-
-Utilizou-se também a função `window.scrollTo()` para realiza a rolagem para nas seções de navegação.
+## 
 
 
 # HTML

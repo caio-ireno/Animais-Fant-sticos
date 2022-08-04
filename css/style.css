@@ -244,9 +244,17 @@ body{
 @keyframes slideDown {
     from{
         opacity: 0;
+        
     }
 
     to{
         opacity: 1;
     }
+}
+.js .js-scroll {
+    opacity: 0;
+}
+
+.js .js-scroll.ativo {
+    opacity: 1;
 }
